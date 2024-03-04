@@ -1,0 +1,36 @@
+<div class="nav">
+    <div class="buttonsList">
+        <ul class="taskListNav">
+            <li><button id="allTasks" (click)="changePage('allTasks')">All Tasks</button></li>
+            <li><button id="doneTasks" (click)="changePage('doneTasks')">Done Tasks</button></li>
+            <li><button id="PendingTasks" (click)="changePage('PendingTasks')">Undone Tasks</button></li>
+        </ul>
+    </div>
+    <div class="profileSection">
+        <button id="v"><img src="../../assets/pngegg.png" alt="Config"></button>
+        <button id="LogOut" (click)="logOut()"><img src="../../assets/[CITYPNG.COM]PNG Login Logout White Icon - 800x800.png" alt="Logout"></button>
+    </div>
+</div>
+
+
+<div class="allTasks" *ngIf="allTasks">
+    <div class="card">
+        <div class="firstPart">
+            <h2 class="taskTitle">Hacer la comida con mi familia </h2>
+        </div>
+        <div class="secondPart">
+            <p class="taskDescription">Debo hacer la comida a las 3:45 de la madrugada del viernes</p>
+        </div>
+        <div class="taskState">Done</div>
+        <button id="doneTask">Change State</button>
+    </div>
+    
+</div>
+<div class="doneTasks" *ngIf="doneTasks">
+
+</div>
+<div class="pendingTasks" *ngIf="pendingTasks">
+
+</div>
+
+

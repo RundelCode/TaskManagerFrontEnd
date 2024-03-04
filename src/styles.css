@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+:root {
+    --red-bg-color: #BE3144;
+    --button-background: #141414;
+    --button-text-color: white;
+    --button-hover-background: #262626;
+    --profile-background: #141414;
+    --profile-text-color: #EEEDEB;
+    --card-bg-color: var(--red-bg-color);
+    --card-button-bg-color: #141414;
+    --card-button-hover-bg-color: #1B1B1B;
+    --card-button-hover-text-color: white;
+    --card-background: white;
+    --card-text: #000000;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #1b1b1b;
+}

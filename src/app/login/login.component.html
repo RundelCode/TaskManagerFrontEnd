@@ -1,0 +1,11 @@
+<div class="loginContainer">
+    <h1>Task Manager</h1>
+    <div class="loginCard">
+        <h3>Login</h3>
+        <input type="email" id="emailInput" placeholder="Email">
+        <input type="password" id="passwordInput" placeholder="Password">
+        <button id="SendButton" (click)="login()">Send</button>
+        <div class="errorMessage" *ngIf="showErrorMessage">Wrong email or password</div>
+    </div>
+    <p>You dont have an account? <a href="/register" class="registerLink">Register here</a></p>
+</div>

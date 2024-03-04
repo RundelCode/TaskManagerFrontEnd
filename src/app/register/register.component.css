@@ -1,0 +1,59 @@
+.registerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    gap: 20px;
+    color: white;
+}
+
+
+.registerCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+    background-color: #141414;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.registerCard input{
+    height: 35px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: #1b1b1b;
+    border: none;
+    padding-left: 5px;
+    color: white;
+}
+.registerCard input:hover{
+    background-color: #242424;
+}
+
+.registerCard button{
+    height: 35px;
+    width: 40%;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.registerCard button:hover{
+    cursor: pointer;
+    background-color: rgb(195, 195, 195);
+    width: 45%;
+}
+
+.loginLink{
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+.loginLink:hover{
+    cursor: pointer;
+}
